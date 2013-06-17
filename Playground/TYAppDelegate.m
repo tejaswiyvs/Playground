@@ -7,6 +7,7 @@
 //
 
 #import "TYAppDelegate.h"
+#import "TYHomeViewController.h"
 
 @implementation TYAppDelegate
 
@@ -18,6 +19,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    TYHomeViewController *home = [[TYHomeViewController alloc] initWithNibName:@"TYHomeViewController" bundle:nil];
+    self.window.rootViewController = home;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

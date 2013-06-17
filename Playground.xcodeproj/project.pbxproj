@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7028EF0176C13570050AFFA /* TYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7140C07176C0F5B00720D7C /* TYHomeViewController.m */; };
+		B7028EF1176C135D0050AFFA /* TYHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7140C08176C0F5B00720D7C /* TYHomeViewController.xib */; };
 		B7140BCF176C070400720D7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BCE176C070400720D7C /* Foundation.framework */; };
 		B7140BD1176C070400720D7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BD0176C070400720D7C /* CoreGraphics.framework */; };
 		B7140BD3176C070400720D7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BD2176C070400720D7C /* UIKit.framework */; };
@@ -53,6 +55,14 @@
 		B7140BF5176C070400720D7C /* PlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		B7140BF7176C070400720D7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7140BF9176C070400720D7C /* PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundTests.m; sourceTree = "<group>"; };
+		B7140C06176C0F5B00720D7C /* TYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHomeViewController.h; sourceTree = "<group>"; };
+		B7140C07176C0F5B00720D7C /* TYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHomeViewController.m; sourceTree = "<group>"; };
+		B7140C08176C0F5B00720D7C /* TYHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TYHomeViewController.xib; sourceTree = "<group>"; };
+		B74EAAB8176FD421008D4499 /* TYTimelineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTimelineCell.h; sourceTree = "<group>"; };
+		B74EAAB9176FD421008D4499 /* TYTimelineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTimelineCell.m; sourceTree = "<group>"; };
+		B74EAABA176FD42F008D4499 /* TYTimelineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TYTimelineCell.xib; sourceTree = "<group>"; };
+		B74EAABC176FD8FD008D4499 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B74EAABD176FD938008D4499 /* README.mdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,9 @@
 		B7140BD6176C070400720D7C /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				B74EAABD176FD938008D4499 /* README.mdown */,
+				B74EAABE176FDA12008D4499 /* UIKit Dynamics APIs */,
+				B74EAABB176FD8E6008D4499 /* Timeline */,
 				B7140BDF176C070400720D7C /* TYAppDelegate.h */,
 				B7140BE0176C070400720D7C /* TYAppDelegate.m */,
 				B7140BE5176C070400720D7C /* Images.xcassets */,
@@ -151,6 +164,35 @@
 				B7140BF6176C070400720D7C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B74EAAB7176FD3B5008D4499 /* TimelineCellView */ = {
+			isa = PBXGroup;
+			children = (
+				B74EAAB8176FD421008D4499 /* TYTimelineCell.h */,
+				B74EAAB9176FD421008D4499 /* TYTimelineCell.m */,
+				B74EAABA176FD42F008D4499 /* TYTimelineCell.xib */,
+			);
+			name = TimelineCellView;
+			sourceTree = "<group>";
+		};
+		B74EAABB176FD8E6008D4499 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				B74EAABC176FD8FD008D4499 /* README */,
+				B7140C06176C0F5B00720D7C /* TYHomeViewController.h */,
+				B7140C07176C0F5B00720D7C /* TYHomeViewController.m */,
+				B7140C08176C0F5B00720D7C /* TYHomeViewController.xib */,
+				B74EAAB7176FD3B5008D4499 /* TimelineCellView */,
+			);
+			name = Timeline;
+			sourceTree = "<group>";
+		};
+		B74EAABE176FDA12008D4499 /* UIKit Dynamics APIs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "UIKit Dynamics APIs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7028EF1176C135D0050AFFA /* TYHomeViewController.xib in Resources */,
 				B7140BDB176C070400720D7C /* InfoPlist.strings in Resources */,
 				B7140BE6176C070400720D7C /* Images.xcassets in Resources */,
 			);
@@ -249,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7028EF0176C13570050AFFA /* TYHomeViewController.m in Sources */,
 				B7140BDD176C070400720D7C /* main.m in Sources */,
 				B7140BE1176C070400720D7C /* TYAppDelegate.m in Sources */,
 				B7140BE4176C070400720D7C /* Playground.xcdatamodeld in Sources */,
@@ -366,6 +410,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Greatwater Software, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Greatwater Software, Inc.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				INFOPLIST_FILE = "Playground/Playground-Info.plist";
@@ -379,6 +425,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Greatwater Software, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Greatwater Software, Inc.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				INFOPLIST_FILE = "Playground/Playground-Info.plist";
@@ -446,6 +494,7 @@
 				B7140BFF176C070400720D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7140C00176C070400720D7C /* Build configuration list for PBXNativeTarget "PlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +503,7 @@
 				B7140C02176C070400720D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
