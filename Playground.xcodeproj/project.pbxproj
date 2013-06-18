@@ -26,6 +26,7 @@
 		B74EAAC3176FDAA0008D4499 /* TYHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74EAAC1176FDAA0008D4499 /* TYHomeViewController.xib */; };
 		B74EAAC7176FDAA8008D4499 /* TYTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74EAAC5176FDAA8008D4499 /* TYTimelineCell.m */; };
 		B74EAAC8176FDAA8008D4499 /* TYTimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74EAAC6176FDAA8008D4499 /* TYTimelineCell.xib */; };
+		B74EAACA176FDC51008D4499 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B74EAAC9176FDC51008D4499 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +58,13 @@
 		B7140BF5176C070400720D7C /* PlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		B7140BF7176C070400720D7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7140BF9176C070400720D7C /* PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundTests.m; sourceTree = "<group>"; };
-		B74EAABD176FD938008D4499 /* README.mdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
 		B74EAABF176FDAA0008D4499 /* TYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYHomeViewController.h; path = Timeline/TYHomeViewController.h; sourceTree = "<group>"; };
 		B74EAAC0176FDAA0008D4499 /* TYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYHomeViewController.m; path = Timeline/TYHomeViewController.m; sourceTree = "<group>"; };
 		B74EAAC1176FDAA0008D4499 /* TYHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYHomeViewController.xib; path = Timeline/TYHomeViewController.xib; sourceTree = "<group>"; };
 		B74EAAC4176FDAA8008D4499 /* TYTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYTimelineCell.h; path = Timeline/TYTimelineCell/TYTimelineCell.h; sourceTree = "<group>"; };
 		B74EAAC5176FDAA8008D4499 /* TYTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYTimelineCell.m; path = Timeline/TYTimelineCell/TYTimelineCell.m; sourceTree = "<group>"; };
 		B74EAAC6176FDAA8008D4499 /* TYTimelineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYTimelineCell.xib; path = Timeline/TYTimelineCell/TYTimelineCell.xib; sourceTree = "<group>"; };
+		B74EAAC9176FDC51008D4499 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +127,7 @@
 		B7140BD6176C070400720D7C /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				B74EAABD176FD938008D4499 /* README.mdown */,
+				B74EAAC9176FDC51008D4499 /* README.md */,
 				B74EAABE176FDA12008D4499 /* UIKit Dynamics APIs */,
 				B74EAABB176FD8E6008D4499 /* Timeline */,
 				B7140BDF176C070400720D7C /* TYAppDelegate.h */,
@@ -273,6 +274,7 @@
 			files = (
 				B74EAAC3176FDAA0008D4499 /* TYHomeViewController.xib in Resources */,
 				B7140BDB176C070400720D7C /* InfoPlist.strings in Resources */,
+				B74EAACA176FDC51008D4499 /* README.md in Resources */,
 				B7140BE6176C070400720D7C /* Images.xcassets in Resources */,
 				B74EAAC8176FDAA8008D4499 /* TYTimelineCell.xib in Resources */,
 			);
