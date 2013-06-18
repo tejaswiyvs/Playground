@@ -54,4 +54,5 @@
 - (CGFloat)baseCellHeight {
     return 136.0f;
 }
+
 @end
