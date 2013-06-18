@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7028EF0176C13570050AFFA /* TYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7140C07176C0F5B00720D7C /* TYHomeViewController.m */; };
-		B7028EF1176C135D0050AFFA /* TYHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7140C08176C0F5B00720D7C /* TYHomeViewController.xib */; };
 		B7140BCF176C070400720D7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BCE176C070400720D7C /* Foundation.framework */; };
 		B7140BD1176C070400720D7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BD0176C070400720D7C /* CoreGraphics.framework */; };
 		B7140BD3176C070400720D7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BD2176C070400720D7C /* UIKit.framework */; };
@@ -24,6 +22,10 @@
 		B7140BF0176C070400720D7C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BD4176C070400720D7C /* CoreData.framework */; };
 		B7140BF8176C070400720D7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7140BF6176C070400720D7C /* InfoPlist.strings */; };
 		B7140BFA176C070400720D7C /* PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7140BF9176C070400720D7C /* PlaygroundTests.m */; };
+		B74EAAC2176FDAA0008D4499 /* TYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74EAAC0176FDAA0008D4499 /* TYHomeViewController.m */; };
+		B74EAAC3176FDAA0008D4499 /* TYHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74EAAC1176FDAA0008D4499 /* TYHomeViewController.xib */; };
+		B74EAAC7176FDAA8008D4499 /* TYTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74EAAC5176FDAA8008D4499 /* TYTimelineCell.m */; };
+		B74EAAC8176FDAA8008D4499 /* TYTimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74EAAC6176FDAA8008D4499 /* TYTimelineCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +57,13 @@
 		B7140BF5176C070400720D7C /* PlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		B7140BF7176C070400720D7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7140BF9176C070400720D7C /* PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundTests.m; sourceTree = "<group>"; };
-		B7140C06176C0F5B00720D7C /* TYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHomeViewController.h; sourceTree = "<group>"; };
-		B7140C07176C0F5B00720D7C /* TYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHomeViewController.m; sourceTree = "<group>"; };
-		B7140C08176C0F5B00720D7C /* TYHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TYHomeViewController.xib; sourceTree = "<group>"; };
-		B74EAAB8176FD421008D4499 /* TYTimelineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTimelineCell.h; sourceTree = "<group>"; };
-		B74EAAB9176FD421008D4499 /* TYTimelineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTimelineCell.m; sourceTree = "<group>"; };
-		B74EAABA176FD42F008D4499 /* TYTimelineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TYTimelineCell.xib; sourceTree = "<group>"; };
-		B74EAABC176FD8FD008D4499 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		B74EAABD176FD938008D4499 /* README.mdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		B74EAABF176FDAA0008D4499 /* TYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYHomeViewController.h; path = Timeline/TYHomeViewController.h; sourceTree = "<group>"; };
+		B74EAAC0176FDAA0008D4499 /* TYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYHomeViewController.m; path = Timeline/TYHomeViewController.m; sourceTree = "<group>"; };
+		B74EAAC1176FDAA0008D4499 /* TYHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYHomeViewController.xib; path = Timeline/TYHomeViewController.xib; sourceTree = "<group>"; };
+		B74EAAC4176FDAA8008D4499 /* TYTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYTimelineCell.h; path = Timeline/TYTimelineCell/TYTimelineCell.h; sourceTree = "<group>"; };
+		B74EAAC5176FDAA8008D4499 /* TYTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYTimelineCell.m; path = Timeline/TYTimelineCell/TYTimelineCell.m; sourceTree = "<group>"; };
+		B74EAAC6176FDAA8008D4499 /* TYTimelineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYTimelineCell.xib; path = Timeline/TYTimelineCell/TYTimelineCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,9 +170,9 @@
 		B74EAAB7176FD3B5008D4499 /* TimelineCellView */ = {
 			isa = PBXGroup;
 			children = (
-				B74EAAB8176FD421008D4499 /* TYTimelineCell.h */,
-				B74EAAB9176FD421008D4499 /* TYTimelineCell.m */,
-				B74EAABA176FD42F008D4499 /* TYTimelineCell.xib */,
+				B74EAAC4176FDAA8008D4499 /* TYTimelineCell.h */,
+				B74EAAC5176FDAA8008D4499 /* TYTimelineCell.m */,
+				B74EAAC6176FDAA8008D4499 /* TYTimelineCell.xib */,
 			);
 			name = TimelineCellView;
 			sourceTree = "<group>";
@@ -179,10 +180,9 @@
 		B74EAABB176FD8E6008D4499 /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
-				B74EAABC176FD8FD008D4499 /* README */,
-				B7140C06176C0F5B00720D7C /* TYHomeViewController.h */,
-				B7140C07176C0F5B00720D7C /* TYHomeViewController.m */,
-				B7140C08176C0F5B00720D7C /* TYHomeViewController.xib */,
+				B74EAABF176FDAA0008D4499 /* TYHomeViewController.h */,
+				B74EAAC0176FDAA0008D4499 /* TYHomeViewController.m */,
+				B74EAAC1176FDAA0008D4499 /* TYHomeViewController.xib */,
 				B74EAAB7176FD3B5008D4499 /* TimelineCellView */,
 			);
 			name = Timeline;
@@ -271,9 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7028EF1176C135D0050AFFA /* TYHomeViewController.xib in Resources */,
+				B74EAAC3176FDAA0008D4499 /* TYHomeViewController.xib in Resources */,
 				B7140BDB176C070400720D7C /* InfoPlist.strings in Resources */,
 				B7140BE6176C070400720D7C /* Images.xcassets in Resources */,
+				B74EAAC8176FDAA8008D4499 /* TYTimelineCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7028EF0176C13570050AFFA /* TYHomeViewController.m in Sources */,
 				B7140BDD176C070400720D7C /* main.m in Sources */,
+				B74EAAC7176FDAA8008D4499 /* TYTimelineCell.m in Sources */,
 				B7140BE1176C070400720D7C /* TYAppDelegate.m in Sources */,
+				B74EAAC2176FDAA0008D4499 /* TYHomeViewController.m in Sources */,
 				B7140BE4176C070400720D7C /* Playground.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

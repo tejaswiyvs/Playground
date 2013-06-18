@@ -51,10 +51,6 @@
 
 #pragma mark - Helpers
 
-- (CGFloat)cellHeightForStatusText:(NSString *) statusText {
-    
-}
-
 - (CGFloat)baseCellHeight {
     return 136.0f;
 }
