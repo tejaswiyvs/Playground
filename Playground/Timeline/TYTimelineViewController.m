@@ -6,13 +6,16 @@
 //  Copyright (c) 2013 Tejaswi Yerukalapudi. All rights reserved.
 //
 
-#import "TYHomeViewController.h"
+#import "TYTimelineViewController.h"
+#import "TYTimelineCell.h"
 
-@interface TYHomeViewController ()
+@interface TYTimelineViewController ()
+
+@property (nonatomic, strong) IBOutlet UIButton *button;
 
 @end
 
-@implementation TYHomeViewController
+@implementation TYTimelineViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -38,21 +41,22 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     static NSString * const kReuseId = @"TimelineCell";
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kReuseId forIndexPath:indexPath];
-    if (!cell) {
-        
-    }
+    TYTimelineCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kReuseId forIndexPath:indexPath];
     return cell;
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-
+    
 }
 
 #pragma mark - Helpers
 
 - (CGFloat)baseCellHeight {
     return 136.0f;
+}
+
+- (UIImage *)backgroundImage {
+    return [[UIImage imageNamed:@"Timelinebar.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(1.0f, 0.0f, 1.0f, 0.0f)];
 }
 
 @end

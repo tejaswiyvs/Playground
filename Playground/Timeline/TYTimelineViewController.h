@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TYHomeViewController : UIViewController<UICollectionViewDelegate, UICollectionViewDataSource>
-
-@property (nonatomic, strong) IBOutlet UIButton *button;
+@interface TYTimelineViewController : UICollectionViewController<UICollectionViewDelegate, UICollectionViewDataSource>
 
 @end

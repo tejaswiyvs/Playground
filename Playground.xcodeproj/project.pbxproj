@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70350F11784395D0045730D /* TYLauncherItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B70350F01784392D0045730D /* TYLauncherItem.m */; };
 		B7140BCF176C070400720D7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BCE176C070400720D7C /* Foundation.framework */; };
 		B7140BD1176C070400720D7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BD0176C070400720D7C /* CoreGraphics.framework */; };
 		B7140BD3176C070400720D7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BD2176C070400720D7C /* UIKit.framework */; };
@@ -22,11 +23,28 @@
 		B7140BF0176C070400720D7C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7140BD4176C070400720D7C /* CoreData.framework */; };
 		B7140BF8176C070400720D7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7140BF6176C070400720D7C /* InfoPlist.strings */; };
 		B7140BFA176C070400720D7C /* PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7140BF9176C070400720D7C /* PlaygroundTests.m */; };
-		B74EAAC2176FDAA0008D4499 /* TYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74EAAC0176FDAA0008D4499 /* TYHomeViewController.m */; };
-		B74EAAC3176FDAA0008D4499 /* TYHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74EAAC1176FDAA0008D4499 /* TYHomeViewController.xib */; };
+		B74EAAC2176FDAA0008D4499 /* TYTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74EAAC0176FDAA0008D4499 /* TYTimelineViewController.m */; };
+		B74EAAC3176FDAA0008D4499 /* TYTimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74EAAC1176FDAA0008D4499 /* TYTimelineViewController.xib */; };
 		B74EAAC7176FDAA8008D4499 /* TYTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74EAAC5176FDAA8008D4499 /* TYTimelineCell.m */; };
 		B74EAAC8176FDAA8008D4499 /* TYTimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74EAAC6176FDAA8008D4499 /* TYTimelineCell.xib */; };
 		B74EAACA176FDC51008D4499 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B74EAAC9176FDC51008D4499 /* README.md */; };
+		B75D8F631782F53500D025AB /* TYLauncherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B75D8F621782F53500D025AB /* TYLauncherCell.xib */; };
+		B75D8F641782F53F00D025AB /* TYLauncherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B75D8F611782F52800D025AB /* TYLauncherCell.m */; };
+		B75D8F6A1782FE7B00D025AB /* TYLauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75D8F681782FE7B00D025AB /* TYLauncherViewController.m */; };
+		B7A71D211875F962001656C6 /* TYCoreObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A71D1F1875F962001656C6 /* TYCoreObjCViewController.m */; };
+		B7A71D221875F962001656C6 /* TYCoreObjCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7A71D201875F962001656C6 /* TYCoreObjCViewController.xib */; };
+		B7B231B818B1709C001934CE /* autolayout.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231B718B1709C001934CE /* autolayout.png */; };
+		B7B231B918B1709C001934CE /* autolayout.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231B718B1709C001934CE /* autolayout.png */; };
+		B7B231BC18B170CC001934CE /* custom-views.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231BB18B170CC001934CE /* custom-views.png */; };
+		B7B231BD18B170CC001934CE /* custom-views.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231BB18B170CC001934CE /* custom-views.png */; };
+		B7B231BF18B17104001934CE /* timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231BE18B17104001934CE /* timeline.png */; };
+		B7B231C018B17104001934CE /* timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231BE18B17104001934CE /* timeline.png */; };
+		B7B231C218B17153001934CE /* scrollview.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231C118B17153001934CE /* scrollview.png */; };
+		B7B231C318B17153001934CE /* scrollview.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231C118B17153001934CE /* scrollview.png */; };
+		B7B231C518B1719F001934CE /* core-data.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231C418B1719F001934CE /* core-data.png */; };
+		B7B231C618B1719F001934CE /* core-data.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231C418B1719F001934CE /* core-data.png */; };
+		B7B231C818B17214001934CE /* collection-view.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231C718B17214001934CE /* collection-view.png */; };
+		B7B231C918B17214001934CE /* collection-view.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B231C718B17214001934CE /* collection-view.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B70350EF1784392D0045730D /* TYLauncherItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TYLauncherItem.h; path = UICollectionView/TYLauncherItem.h; sourceTree = "<group>"; };
+		B70350F01784392D0045730D /* TYLauncherItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TYLauncherItem.m; path = UICollectionView/TYLauncherItem.m; sourceTree = "<group>"; };
 		B7140BCB176C070400720D7C /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7140BCE176C070400720D7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B7140BD0176C070400720D7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,13 +78,27 @@
 		B7140BF5176C070400720D7C /* PlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		B7140BF7176C070400720D7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7140BF9176C070400720D7C /* PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundTests.m; sourceTree = "<group>"; };
-		B74EAABF176FDAA0008D4499 /* TYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYHomeViewController.h; path = Timeline/TYHomeViewController.h; sourceTree = "<group>"; };
-		B74EAAC0176FDAA0008D4499 /* TYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYHomeViewController.m; path = Timeline/TYHomeViewController.m; sourceTree = "<group>"; };
-		B74EAAC1176FDAA0008D4499 /* TYHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYHomeViewController.xib; path = Timeline/TYHomeViewController.xib; sourceTree = "<group>"; };
+		B74EAABF176FDAA0008D4499 /* TYTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYTimelineViewController.h; path = Timeline/TYTimelineViewController.h; sourceTree = "<group>"; };
+		B74EAAC0176FDAA0008D4499 /* TYTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYTimelineViewController.m; path = Timeline/TYTimelineViewController.m; sourceTree = "<group>"; };
+		B74EAAC1176FDAA0008D4499 /* TYTimelineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYTimelineViewController.xib; path = Timeline/TYTimelineViewController.xib; sourceTree = "<group>"; };
 		B74EAAC4176FDAA8008D4499 /* TYTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYTimelineCell.h; path = Timeline/TYTimelineCell/TYTimelineCell.h; sourceTree = "<group>"; };
 		B74EAAC5176FDAA8008D4499 /* TYTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYTimelineCell.m; path = Timeline/TYTimelineCell/TYTimelineCell.m; sourceTree = "<group>"; };
 		B74EAAC6176FDAA8008D4499 /* TYTimelineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYTimelineCell.xib; path = Timeline/TYTimelineCell/TYTimelineCell.xib; sourceTree = "<group>"; };
 		B74EAAC9176FDC51008D4499 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		B75D8F601782F52800D025AB /* TYLauncherCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TYLauncherCell.h; path = UICollectionView/TYLauncherCell.h; sourceTree = "<group>"; };
+		B75D8F611782F52800D025AB /* TYLauncherCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TYLauncherCell.m; path = UICollectionView/TYLauncherCell.m; sourceTree = "<group>"; };
+		B75D8F621782F53500D025AB /* TYLauncherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYLauncherCell.xib; sourceTree = "<group>"; };
+		B75D8F671782FE7B00D025AB /* TYLauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYLauncherViewController.h; path = UICollectionView/TYLauncherViewController.h; sourceTree = "<group>"; };
+		B75D8F681782FE7B00D025AB /* TYLauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYLauncherViewController.m; path = UICollectionView/TYLauncherViewController.m; sourceTree = "<group>"; };
+		B7A71D1E1875F962001656C6 /* TYCoreObjCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYCoreObjCViewController.h; path = "Core ObjC/TYCoreObjCViewController.h"; sourceTree = "<group>"; };
+		B7A71D1F1875F962001656C6 /* TYCoreObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYCoreObjCViewController.m; path = "Core ObjC/TYCoreObjCViewController.m"; sourceTree = "<group>"; };
+		B7A71D201875F962001656C6 /* TYCoreObjCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYCoreObjCViewController.xib; path = "Core ObjC/TYCoreObjCViewController.xib"; sourceTree = "<group>"; };
+		B7B231B718B1709C001934CE /* autolayout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autolayout.png; sourceTree = "<group>"; };
+		B7B231BB18B170CC001934CE /* custom-views.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "custom-views.png"; sourceTree = "<group>"; };
+		B7B231BE18B17104001934CE /* timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline.png; sourceTree = "<group>"; };
+		B7B231C118B17153001934CE /* scrollview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrollview.png; sourceTree = "<group>"; };
+		B7B231C418B1719F001934CE /* core-data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "core-data.png"; sourceTree = "<group>"; };
+		B7B231C718B17214001934CE /* collection-view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "collection-view.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +161,9 @@
 		B7140BD6176C070400720D7C /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				B7B231BA18B170A0001934CE /* Resources */,
+				B7A71D1D1875F93A001656C6 /* Core Obj-C */,
+				B75D8F5B1782F32200D025AB /* UICollectionView */,
 				B74EAAC9176FDC51008D4499 /* README.md */,
 				B74EAABE176FDA12008D4499 /* UIKit Dynamics APIs */,
 				B74EAABB176FD8E6008D4499 /* Timeline */,
@@ -181,9 +218,9 @@
 		B74EAABB176FD8E6008D4499 /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
-				B74EAABF176FDAA0008D4499 /* TYHomeViewController.h */,
-				B74EAAC0176FDAA0008D4499 /* TYHomeViewController.m */,
-				B74EAAC1176FDAA0008D4499 /* TYHomeViewController.xib */,
+				B74EAABF176FDAA0008D4499 /* TYTimelineViewController.h */,
+				B74EAAC0176FDAA0008D4499 /* TYTimelineViewController.m */,
+				B74EAAC1176FDAA0008D4499 /* TYTimelineViewController.xib */,
 				B74EAAB7176FD3B5008D4499 /* TimelineCellView */,
 			);
 			name = Timeline;
@@ -194,6 +231,43 @@
 			children = (
 			);
 			name = "UIKit Dynamics APIs";
+			sourceTree = "<group>";
+		};
+		B75D8F5B1782F32200D025AB /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B75D8F671782FE7B00D025AB /* TYLauncherViewController.h */,
+				B75D8F681782FE7B00D025AB /* TYLauncherViewController.m */,
+				B75D8F601782F52800D025AB /* TYLauncherCell.h */,
+				B75D8F611782F52800D025AB /* TYLauncherCell.m */,
+				B75D8F621782F53500D025AB /* TYLauncherCell.xib */,
+				B70350EF1784392D0045730D /* TYLauncherItem.h */,
+				B70350F01784392D0045730D /* TYLauncherItem.m */,
+			);
+			name = UICollectionView;
+			sourceTree = "<group>";
+		};
+		B7A71D1D1875F93A001656C6 /* Core Obj-C */ = {
+			isa = PBXGroup;
+			children = (
+				B7A71D1E1875F962001656C6 /* TYCoreObjCViewController.h */,
+				B7A71D1F1875F962001656C6 /* TYCoreObjCViewController.m */,
+				B7A71D201875F962001656C6 /* TYCoreObjCViewController.xib */,
+			);
+			name = "Core Obj-C";
+			sourceTree = "<group>";
+		};
+		B7B231BA18B170A0001934CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7B231BE18B17104001934CE /* timeline.png */,
+				B7B231BB18B170CC001934CE /* custom-views.png */,
+				B7B231B718B1709C001934CE /* autolayout.png */,
+				B7B231C118B17153001934CE /* scrollview.png */,
+				B7B231C418B1719F001934CE /* core-data.png */,
+				B7B231C718B17214001934CE /* collection-view.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,10 +346,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B74EAAC3176FDAA0008D4499 /* TYHomeViewController.xib in Resources */,
+				B74EAAC3176FDAA0008D4499 /* TYTimelineViewController.xib in Resources */,
+				B7A71D221875F962001656C6 /* TYCoreObjCViewController.xib in Resources */,
+				B7B231C518B1719F001934CE /* core-data.png in Resources */,
+				B7B231B818B1709C001934CE /* autolayout.png in Resources */,
+				B7B231C218B17153001934CE /* scrollview.png in Resources */,
 				B7140BDB176C070400720D7C /* InfoPlist.strings in Resources */,
 				B74EAACA176FDC51008D4499 /* README.md in Resources */,
+				B7B231BF18B17104001934CE /* timeline.png in Resources */,
+				B75D8F631782F53500D025AB /* TYLauncherCell.xib in Resources */,
 				B7140BE6176C070400720D7C /* Images.xcassets in Resources */,
+				B7B231C818B17214001934CE /* collection-view.png in Resources */,
+				B7B231BC18B170CC001934CE /* custom-views.png in Resources */,
 				B74EAAC8176FDAA8008D4499 /* TYTimelineCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +366,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B231B918B1709C001934CE /* autolayout.png in Resources */,
+				B7B231BD18B170CC001934CE /* custom-views.png in Resources */,
+				B7B231C918B17214001934CE /* collection-view.png in Resources */,
+				B7B231C618B1719F001934CE /* core-data.png in Resources */,
+				B7B231C318B17153001934CE /* scrollview.png in Resources */,
 				B7140BF8176C070400720D7C /* InfoPlist.strings in Resources */,
+				B7B231C018B17104001934CE /* timeline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,10 +383,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70350F11784395D0045730D /* TYLauncherItem.m in Sources */,
+				B75D8F641782F53F00D025AB /* TYLauncherCell.m in Sources */,
 				B7140BDD176C070400720D7C /* main.m in Sources */,
+				B75D8F6A1782FE7B00D025AB /* TYLauncherViewController.m in Sources */,
 				B74EAAC7176FDAA8008D4499 /* TYTimelineCell.m in Sources */,
+				B7A71D211875F962001656C6 /* TYCoreObjCViewController.m in Sources */,
 				B7140BE1176C070400720D7C /* TYAppDelegate.m in Sources */,
-				B74EAAC2176FDAA0008D4499 /* TYHomeViewController.m in Sources */,
+				B74EAAC2176FDAA0008D4499 /* TYTimelineViewController.m in Sources */,
 				B7140BE4176C070400720D7C /* Playground.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +511,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				INFOPLIST_FILE = "Playground/Playground-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -434,6 +527,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				INFOPLIST_FILE = "Playground/Playground-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

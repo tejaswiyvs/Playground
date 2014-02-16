@@ -7,7 +7,8 @@
 //
 
 #import "TYAppDelegate.h"
-#import "TYHomeViewController.h"
+#import "TYTimelineViewController.h"
+#import "TYLauncherViewController.h"
 
 @implementation TYAppDelegate
 
@@ -19,8 +20,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    TYHomeViewController *home = [[TYHomeViewController alloc] initWithNibName:@"TYHomeViewController" bundle:nil];
-    self.window.rootViewController = home;
+    TYLauncherViewController *launchScreen = [self buildLaunchScreen];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:launchScreen];
+    self.window.rootViewController = navigationController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -54,6 +56,17 @@
     [self saveContext];
 }
 
+#pragma mark - Helpers
+
+- (TYLauncherViewController *)buildLaunchScreen {
+    UICollectionViewFlowLayout *aFlowLayout = [[UICollectionViewFlowLayout alloc] init];
+    [aFlowLayout setItemSize:CGSizeMake(100.0f, 100.0f)];
+    [aFlowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
+    [aFlowLayout setMinimumInteritemSpacing:10.0f];
+    [aFlowLayout setMinimumLineSpacing:10.0f];
+    return [[TYLauncherViewController alloc] initWithCollectionViewLayout:aFlowLayout];
+}
+
 - (void)saveContext
 {
     NSError *error = nil;
@@ -66,6 +79,12 @@
             abort();
         } 
     }
+}
+
+// Returns the URL to the application's Documents directory.
+- (NSURL *)applicationDocumentsDirectory
+{
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
 #pragma mark - Core Data stack
@@ -139,14 +158,6 @@
     }    
     
     return _persistentStoreCoordinator;
-}
-
-#pragma mark - Application's Documents directory
-
-// Returns the URL to the application's Documents directory.
-- (NSURL *)applicationDocumentsDirectory
-{
-    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
 @end
